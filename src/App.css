@@ -42,8 +42,37 @@ span{
   left: -3.6rem;
 }
 
-/* .loginImage{
-  position: absolute;
-  left: 40rem;
-  top: -6rem;
-} */
+@media screen and (max-width: 1400px){
+  .smallText{
+    position: relative;
+    left: -2.2rem;
+  }
+
+  .smallText2{
+    position: relative;
+    left: -3.4rem;
+  }
+
+  .smallText3{
+    position: relative;
+    left: -3rem;
+  }
+
+}
+
+@media screen and (max-width: 1200px){
+  .smallText{
+    position: relative;
+    left: -.9rem;
+  }
+
+  .smallText2{
+    position: relative;
+    left: -2.1rem;
+  }
+
+  .smallText3{
+    position: relative;
+    left: -1.8rem;
+  }
+}

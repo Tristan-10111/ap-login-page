@@ -15,18 +15,18 @@ function App() {
 
 					<Inputs />
 
-					<div className='text-left fw-400 mt-2 fw-semibold'>
+					<div className='text-left fw-400 mt-2 fw-semibold smallText3'>
 						Forgot <span>password</span>?
 					</div>
 
-					<div className='form-check mt-3 '>
+					<div className='form-check mt-3 smallText2'>
 						<input className='form-check-input' type='checkbox' />
-						<label className='form-check-label fw-semibold'>Remeber me</label>
+						<label className='form-check-label fw-semibold'>Remember me</label>
 					</div>
 
 					<LoginBtn />
 
-					<div className='text-left mt-3 bottom-text fw-semibold'>
+					<div className='text-left mt-3 bottom-text fw-semibold smallText'>
 						Create new <span>account</span>?
 					</div>
 				</div>
