@@ -1,15 +1,10 @@
 import React from 'react'
-import Inputs from './functions/inputs'
-import LoginBtn from './functions/loginBtn'
-import LoginImage from '../../images/Face to face-pana 1.png'
+import Inputs from './inputs'
+import LoginBtn from './loginBtn'
+import LoginImage from '../../../images/Face to face-pana 1.png'
 import {Link} from "react-router-dom"
 
 export default function LoginPage() {
-
-    // let navigate = useNavigate;
-    // function navToSingUp(){
-    //     navigate("./SignUpPage")
-    // }
 
       return (
     <div className='container d-flex justify-content-around mt-5 '>

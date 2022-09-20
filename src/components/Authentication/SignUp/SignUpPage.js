@@ -1,5 +1,5 @@
 import React from 'react'
-import SignUpImg from '../../images/Remote meeting-cuate 1.png'
+import SignUpImg from '../../../images/Remote meeting-cuate 1.png'
 import {Link} from 'react-router-dom'
 import './SignUpPage.css'
 

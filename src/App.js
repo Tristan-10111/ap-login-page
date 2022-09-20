@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import LoginPage from "./components/Login/LoginPage";
-import SignUpPage from "./components/SignUp/SignUpPage";
+import LoginPage from "./components/Authentication/Login/LoginPage";
+import SignUpPage from "./components/Authentication/SignUp/SignUpPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
