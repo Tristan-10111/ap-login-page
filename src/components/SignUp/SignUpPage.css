@@ -1,0 +1,29 @@
+.link2{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: -2rem;
+    top: 1rem;
+  }
+  .link2:hover{
+    text-decoration: none;
+    color: black;
+  }
+
+  @media screen and (max-width: 1400px){
+    .link2{
+        position: relative;
+        left: -0.6rem;
+        top: 1rem;
+      }
+  
+  }
+  
+  @media screen and (max-width: 1200px){
+    .link2{
+        position: relative;
+        left: -0rem;
+        top: 1rem;
+        font-size: .9rem;
+      }
+  }
