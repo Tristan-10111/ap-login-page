@@ -76,3 +76,12 @@ span{
     left: -1.8rem;
   }
 }
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+.link:hover{
+  text-decoration: none;
+  color: black;
+}
