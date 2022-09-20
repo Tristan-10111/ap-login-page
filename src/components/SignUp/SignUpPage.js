@@ -1,7 +1,7 @@
 import React from 'react'
 
 
- function Page() {
+ function SignUpPage() {
   return (
  <div className='container d-flex justify-content-around mt-4'>
    <div className='card mt-4 border border-0 h-75'>
@@ -44,4 +44,4 @@ import React from 'react'
  </div>
  )
 }
-export default Page;
+export default SignUpPage;

@@ -1,6 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LoginPage from "./components/Login/LoginPage";
+import SignUpPage from "./components/SignUp/SignUpPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route path= "/" element={<LoginPage />} /> {/*show login page when route is active */}
-				{/* <Route path = "/SignUpPage" element={<SignUpPage />} /> */}
+				<Route path = "/SignUpPage" element={<SignUpPage />} />
 			</Routes>
 		</BrowserRouter>
 	);
