@@ -85,3 +85,7 @@ span{
   text-decoration: none;
   color: black;
 }
+
+.text-decoration-none{
+  color:#008800 !important;
+}

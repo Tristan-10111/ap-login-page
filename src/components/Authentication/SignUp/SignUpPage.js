@@ -1,5 +1,5 @@
 import React from 'react'
-import SignUpImg from '../../../images/Remote meeting-cuate 1.png'
+import SignUpImg from '../../../assets/images/Remote meeting-cuate 1.png'
 import {Link} from 'react-router-dom'
 import './SignUpPage.css'
 
@@ -17,7 +17,7 @@ import './SignUpPage.css'
 		    	</div>
 
 			    <div className='input-group mb-3'>
-			    	<input type='password' className='form-control p-2 fw-semibold fs-5' placeholder='Name' />
+			    	<input type='text' className='form-control p-2 fw-semibold fs-5' placeholder='Name' />
 			    </div>
 
 			    <div className='input-group mb-2'>
@@ -27,7 +27,7 @@ import './SignUpPage.css'
 
         {/* sign up btn */}
        <div className='d-grid mt-4 w-75'>
-        <button type='submit' className='btn btn-success p-2 fw-bold fs-4'>Sign up</button>
+        <button type='submit' className='btn btn-success p-2 fw-bold fs-4 shadow rounded'>Sign up</button>
        </div>
 
        <Link to='/' className='link2 fw-semibold'>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Inputs from './inputs'
 import LoginBtn from './loginBtn'
-import LoginImage from '../../../images/Face to face-pana 1.png'
+import LoginImage from '../../../assets/images/Face to face-pana 1.png'
 import {Link} from "react-router-dom"
 
 export default function LoginPage() {
